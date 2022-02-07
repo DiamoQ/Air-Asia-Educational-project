@@ -1,0 +1,10 @@
+.body-service{
+  background: #fff;
+  color:#000000;
+}
+
+.wrapper-service{
+  background: url("../../img/services-img/background.png") center top no-repeat;
+  background-size: 100% 420px;
+}
+

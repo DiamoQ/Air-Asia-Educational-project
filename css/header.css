@@ -1,0 +1,17 @@
+.header .container{ 
+  margin-bottom: 88px;
+  min-height: 120px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__col{
+  display:flex;
+  justify-content: flex-start;
+}
+
+.header__col--align--right{
+  display: flex;
+  justify-content: flex-end;
+}

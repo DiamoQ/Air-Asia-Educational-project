@@ -1,0 +1,44 @@
+.road{
+  min-height: 900px;
+  width: 100%;
+}
+
+.road__list{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 58px;
+}
+
+.roadlist__img{
+  margin-right: 57px;
+}
+
+.roadlist__item{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:44px;
+}
+
+.roadlist__item:last-child{
+  margin-bottom:0;
+}
+
+.roadlist__content{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 652px;
+}
+
+.roadlist__subtitle{
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.roadlist__content p{
+  font-size: 16px;
+  line-height: 27px;
+  color: #303030;
+}
+
