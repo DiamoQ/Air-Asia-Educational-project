@@ -1,0 +1,12 @@
+.footer-services{
+  background: #001821;
+  color:#fff;
+}
+
+.footer__container-services{
+  color:#fff;
+  min-height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
