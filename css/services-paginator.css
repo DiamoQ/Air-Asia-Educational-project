@@ -1,0 +1,15 @@
+.paginator__item--active{
+  text-align: center;
+  background: #F5170E;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 20px;
+  border: 4px;
+  line-height: 32px;
+  margin: 0 13px 0 0;
+}
+
+.paginator-service{
+  margin-bottom: 90px;
+}
