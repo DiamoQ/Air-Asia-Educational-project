@@ -1,0 +1,14 @@
+.socials{
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+  margin-right:70px;
+}
+
+.socials__item{
+  margin-right:11px;
+}
+
+.socials__item:last-child{
+  margin-right: 0;
+}

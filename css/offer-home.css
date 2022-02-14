@@ -1,0 +1,112 @@
+.offers{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 114px;
+}
+
+.offers__title{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 51px;
+  margin-right: 12px;
+}
+
+.offers__title::after{
+  content:url(../../img/flame.png);
+  margin-left: 14px;
+  padding-top: 2px;
+}
+
+.offers__list{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.offers__item{
+  min-height: 449px;
+  background:#FFFAF0;
+  border-radius: 4px;
+  margin-right: 16px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.offers__item:last-child{
+  margin-right: 0;
+}
+
+.offers__item:hover{
+  background: #fff;
+  transition: 0.7s;
+}
+.offers__cover{
+  width: 100%;
+  height: 144px;
+}
+
+.offers__img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.offers__content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  padding: 33px 16px 26px 22px;
+}
+
+.offers__subtitle{
+  color: #000;
+  font-style: bold;
+  font-size: 24px;
+  margin-bottom:20px;
+}
+
+.offers__conditions-list{
+  color:#666;
+  margin-bottom: 16px;
+}
+
+.offers__icon-calendar{
+  width: 26px;
+  height: 26px;
+}
+
+.offers__icon-meal{
+  width: 36px;
+  height: 26px;
+}
+
+.offers__conditions-list:last-child{
+  margin-right: 0;
+}
+
+.offers__conditions-item{
+  display: inline-flex;
+}
+
+.offers__text-calendar{
+  display: inline-flex;
+  text-decoration: none;
+  margin-left: 14px;
+  margin-right: 24px;
+}
+
+.offers__text-meal{
+  display: inline-flex;
+  text-decoration: none;
+  margin-left:10px;
+}
+
+.offers__desc{
+  color:#303030;
+  font-size: 14px;
+  margin-bottom: 25px;
+}

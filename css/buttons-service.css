@@ -1,0 +1,12 @@
+.road__button{
+  color: #F5170E;
+  border-radius: 35px;
+  border: 1px solid #F5170E;
+  transition: 0.7s;
+}
+
+.road__button:hover{
+  background: #F5170E;
+  color:#fff;
+}
+

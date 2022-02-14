@@ -1,0 +1,39 @@
+.separator-section{
+  background: url("../img/backgrounds/rectangle.png") no-repeat;
+  background-size: cover;
+  min-height: 363px;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.separator-section::after{
+  content: "";
+  position: absolute;
+  right: 22%;
+  opacity: 1;
+  z-index: 1;
+  background: url("../img/backgrounds/couple.png");
+  width: 487px;
+  height: 341px;
+}
+
+.container-separator{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.separator__title{
+  display: inline-flex;
+  align-items: center;
+  width: 595px;
+  height: 100%;
+  font-size: 48px;
+  font-style: bold;
+  color: #fff;
+  margin-bottom: 236px;
+  line-height: 1.3;
+}
