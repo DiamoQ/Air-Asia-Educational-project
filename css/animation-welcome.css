@@ -1,0 +1,63 @@
+.welcome{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/welcome-page/background.png) center bottom / cover no-repeat;
+}
+
+.welcome__container{
+  background: url(../img/welcome-page/shades.png) center center no-repeat;
+  width: 591px;
+}
+
+.central{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.central__text{
+  font-size: 18px;
+  line-height: 100%;
+  margin-bottom: 54px;
+}
+
+.central{
+  opacity: 0;
+  animation:  zoom 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom{
+ from{
+   transform: scale(0.7);
+ }
+
+ 20%{
+   transform: scale(1.25);
+ }
+
+ 40%{
+   transform: scale(0.9);
+ }
+
+ 60%{
+   transform: scale(1.1);
+ }
+
+ 80%{
+   transform: scale(0.95);
+   opacity:1;
+ }
+
+ to{
+   opacity:1;
+   transform: scale(1);
+ }
+}

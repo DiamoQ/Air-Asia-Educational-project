@@ -1,0 +1,17 @@
+.head{ 
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head__collector{
+  display:flex;
+  justify-content: flex-start;
+}
+
+.head__collector--right{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+

@@ -1,0 +1,32 @@
+.separator-section{
+  background: url("../img/backgrounds/rectangle.png") no-repeat;
+  display: flex;
+  min-height: 363px;
+  background-size: cover
+}
+
+.container-separator{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.container-separator::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  background:url("../img/backgrounds/couple.png") no-repeat;
+  width: 487px;
+  height: 341px;
+  bottom: 0;
+  display: block;
+}
+
+.separator__title{
+  width: 595px;
+  font-size: 48px;
+  font-style: bold;
+  color: #fff;
+  line-height: 1.3;
+}

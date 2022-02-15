@@ -1,0 +1,21 @@
+.top-line{
+  display: flex;
+  flex-direction: column;
+  min-height: 412px;
+  background: url("../../img/services-img/background.png") center top no-repeat;
+  color:#fff ;
+  line-height: 1;
+  margin-bottom: 98px;
+}
+
+.top-line .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+}
+
+.head-line{
+  padding-top: 30px;
+}
