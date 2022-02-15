@@ -1,0 +1,89 @@
+.section-form{
+  padding-top: 57px;
+  padding-bottom: 100px;
+}
+
+.form__row{
+  display: flex;
+  margin-bottom: 5px;
+  margin-bottom: 23px;
+}
+
+.form__title{
+  font-size: 48px;
+  margin-bottom: 56px;
+}
+
+.form__input{
+  flex: 1;
+  margin-right: 30px;
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 22px 30px;
+  font-size: 18px;
+}
+
+.form__input:focus{
+  outline: none; /*для Хрома*/
+  border: 1px solid #F5170E;
+}
+
+.form__input:last-child{
+  margin-right: 0px;
+}
+
+.form__input--textarea{
+  height: 235px;
+  resize: none;
+}
+
+.choice__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.choice{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 34px;
+}
+
+.choice__question{
+  font-size: 18px;
+  color: #1A1B1E;
+  width: 44%;
+  margin-right: 33px;
+  padding-top: 10px;
+}
+
+.choice__list{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.choice__elem{
+  cursor: pointer;
+}
+
+.choice__checkbox:checked ~ .choice__tag{
+  background: #B9EAE4;
+}
+
+.choice__checkbox{
+  appearance: none;
+  -ms-progress-appearance: none;
+  position: absolute;
+}
+
+.choice__tag{
+  background: #E7E7E7;
+}
+
+.control-buttons{
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 17px
+}
